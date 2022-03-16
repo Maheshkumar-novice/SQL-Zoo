@@ -3,8 +3,8 @@
 Show the population of Germany.
 
 ```sql
-SELECT population 
-FROM world 
+SELECT population
+FROM world
 WHERE name = 'Germany';
 ```
 
@@ -13,8 +13,8 @@ WHERE name = 'Germany';
 Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
 
 ```sql
-SELECT name, population 
-FROM world 
+SELECT name, population
+FROM world
 WHERE name IN ('Sweden', 'Norway', 'Denmark');
 ```
 
@@ -23,7 +23,7 @@ WHERE name IN ('Sweden', 'Norway', 'Denmark');
 Which countries are not too small and not too big? BETWEEN allows range checking (range specified is inclusive of boundary values). The example below shows countries with an area of 250,000-300,000 sq. km. Modify it to show the country and the area for countries with an area between 200,000 and 250,000.
 
 ```sql
-SELECT name, area 
-FROM world 
+SELECT name, area
+FROM world
 WHERE area BETWEEN 200000 and 250000;
 ```
