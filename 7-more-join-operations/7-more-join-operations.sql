@@ -143,7 +143,7 @@ AND ord = 1;
 
 # 13
 
-Obtain a list, in alphabetical order, of actors who've had at least 15 starring roles.
+Obtain a list, in alphabetical order, of actors who have had at least 15 starring roles.
 
 
 SELECT name

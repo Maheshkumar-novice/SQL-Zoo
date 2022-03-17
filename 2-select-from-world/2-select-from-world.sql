@@ -111,7 +111,7 @@ WHERE LENGTH(name) = LENGTH(capital);
 
 # 12
 
-Show the name and the capital where the first letters of each match. Don't include countries where the name and the capital are the same word.
+Show the name and the capital where the first letters of each match. Do not include countries where the name and the capital are the same word.
 
 
 SELECT name, capital
