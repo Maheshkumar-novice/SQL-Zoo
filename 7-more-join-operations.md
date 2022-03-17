@@ -69,8 +69,8 @@ SELECT name
 FROM casting
 JOIN actor ON actorid = id
 WHERE movieid = (SELECT id
-                FROM movie
-                WHERE title = 'alien');
+                 FROM movie
+                 WHERE title = 'alien');
 ```
 
 # 8
